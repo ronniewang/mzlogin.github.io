@@ -94,8 +94,8 @@ gitment:
     owner: mzlogin
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: a60e36b5de0988465964
+        client_secret: d70c65319757c31b6f51519486a7542c267a77b1
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: ronniewang
