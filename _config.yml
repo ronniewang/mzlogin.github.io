@@ -82,28 +82,13 @@ repository: ronniewang/new-blog
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, gitment, gitalk
 comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: mzlogin
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: a60e36b5de0988465964
-        client_secret: d70c65319757c31b6f51519486a7542c267a77b1
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: ronniewang
     repo: blog-comments
     clientID: a60e36b5de0988465964
     clientSecret: d70c65319757c31b6f51519486a7542c267a77b1
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
 
 # ---------------- #
 #    Analytics     #
